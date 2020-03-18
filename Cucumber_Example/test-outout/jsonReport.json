@@ -1,0 +1,132 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Greens tech"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11254755800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "",
+        "id": "verify-round-trip-functionality;",
+        "after": [
+          {
+            "result": {
+              "duration": 263770800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8490521700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The User is in Delta homepage",
+            "match": {
+              "location": "HomePageSteps.the_User_is_in_Delta_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4383484500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user selects source and destination",
+            "match": {
+              "location": "HomePageSteps.the_user_selects_source_and_destination(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ATL",
+                  "MSP"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1987881100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user selects trip type, dates and number of passengers",
+            "match": {
+              "location": "HomePageSteps.the_user_selects_trip_type_dates_and_number_of_passengers(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Round Trip",
+                  "02/23/2020",
+                  "02/25/2020",
+                  "2 Passengers"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9608162600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user should see the list of flights",
+            "match": {
+              "location": "FlightSearchResultsSteps.the_user_should_see_the_list_of_flights(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sun, Feb 23, 2020"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify round trip functionality",
+    "description": "",
+    "id": "verify-round-trip-functionality",
+    "keyword": "Feature",
+    "uri": "S:/projectclass/projectlive/Delta_Oct9_30/src/test/resources/feature/BookAflight/RoundTrip.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@tag"
+      }
+    ]
+  }
+]

@@ -1,0 +1,308 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11043861600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.Beforescenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Succefull login in freecrm",
+        "description": "",
+        "id": "login-functionality-of-freecrm;succefull-login-in-freecrm",
+        "after": [
+          {
+            "result": {
+              "duration": 683689100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.Afterscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9695006100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user opens the browser",
+            "match": {
+              "location": "HomePageSteps.the_user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4432997400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is in the freecrm website",
+            "match": {
+              "location": "HomePageSteps.user_is_in_the_freecrm_website()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3309268900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the value as \"sehkar\" and \"csksehkar1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sehkar",
+                  "offset": 25
+                },
+                {
+                  "val": "csksehkar1",
+                  "offset": 38
+                }
+              ],
+              "location": "HomePageSteps.user_enter_the_value_as_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8826998100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "HomePageSteps.clicks_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3011947000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user goes into the homepage",
+            "match": {
+              "location": "HomePageSteps.user_goes_into_the_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1688909300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks the logout button",
+            "match": {
+              "location": "HomePageSteps.user_clicks_the_logout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 722290500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user closes the browser",
+            "match": {
+              "location": "HomePageSteps.user_closes_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality of freecrm",
+    "description": "",
+    "id": "login-functionality-of-freecrm",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9584148500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.Beforescenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 22400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.Afterscenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5803983800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "HomePageDealsSteps.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10980100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "HomePageDealsSteps.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213166500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "HomePageDealsSteps.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sehkar",
+                  "csksehkar1"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6565035800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "HomePageDealsSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10303300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "HomePageDealsSteps.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2237212100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user moves to new deal page",
+            "match": {
+              "location": "HomePageDealsSteps.user_moves_to_new_deal_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390722300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters deal details",
+            "match": {
+              "location": "HomePageDealsSteps.user_enters_deal_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "test deal",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 732732400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Close the browser",
+            "match": {
+              "location": "HomePageDealsSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "LoginDataTable.feature"
+  }
+]
